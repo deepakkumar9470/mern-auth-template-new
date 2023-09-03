@@ -1,0 +1,39 @@
+.single-blog{
+ max-width: 700px;
+ margin: 0 auto;
+}
+
+.single-blog header{
+    text-align: center;
+}
+
+.single-blog img{
+    width: 100%;
+}
+
+.goback{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #a9a9a9;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.blog-date{
+font-size: 0.8rem;
+color: #a9a9a9;
+font-weight: 500;
+}
+
+.desc{
+  padding: 1rem;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.action_btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}

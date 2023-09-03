@@ -1,0 +1,51 @@
+.addpost{
+    max-width: 600px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.addpost form{
+ width: 100%;
+ display: flex;
+ gap: 10px;
+ flex-direction: column;
+}
+
+.addpost form label{
+    font-size: 20px;
+    color: rgb(82, 80, 80);
+}
+
+.addpost form input{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: rgb(116, 113, 113);
+    border: 1px solid rgb(116, 113, 113);
+
+}
+.addpost form textarea{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(116, 113, 113);
+}
+.addpost form input:focus{
+    outline: none;
+}
+.addpost form button{
+ background-color: rgb(83, 83, 236);
+ color: #fff;
+ outline: none;
+ font-size: 16px;
+ font-weight: 600;
+ border: none;
+ padding:10px !important;
+ padding: 4px 10px;
+}

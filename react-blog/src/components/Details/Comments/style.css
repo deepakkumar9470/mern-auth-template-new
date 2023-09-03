@@ -1,0 +1,63 @@
+.comments_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ 
+ .comments_wrap textarea{
+    width: 100%;
+    font-size: 1rem;
+    color: #9c9c9c;
+    outline: #9c9c9c;
+    border: 1px solid #9c9c9c;
+    max-width: 400px;
+ }
+
+ .textarea_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .comment_wrap{
+    display: flex;
+    margin-top: 20px;
+    padding-top: 10px;
+    flex-direction: column;
+ }
+ 
+
+
+.post_Btn{
+ width: 80px;
+ background-color: rgb(83, 83, 236);
+ color: #fff;
+ outline: none;
+ font-size: 14px;
+ font-weight: 600;
+ border: none;
+ padding:0 15px;
+ padding: 4px 10px;
+}
+
+
+ .inner_comment{
+    display: flex;
+    gap: 10px;
+ }
+ .c_name{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(117, 116, 116);
+ }
+ 
+ .c_date{
+   font-size: 14px;
+   color: rgb(90, 88, 88);
+   font-weight: 500;
+ }
+ 
+ .c_desc{
+ font-size: 14px;
+ font-weight: 500;
+ color: rgb(117, 116, 116);
+ }
